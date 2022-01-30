@@ -1,9 +1,15 @@
-.title {
-  background-color: #ff4c68;
-}
+./* Body */
 body{
 font-family: 'Montserrat', sans-serif;
 }
+p{
+  color: #8f8f8f;
+}
+/* Title */
+.title {
+  background-color: #ff4c68;
+}
+/* Heading Part */
 .Header {
 font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -38,4 +44,78 @@ padding: 3% 15% 3% 15%;
 .Title-Images{
   width: 60%;
   transform: rotateZ(25deg);
+  padding-top: 50px;
+}
+
+/* Specifications */
+.Easy-To-Use{
+text-align: center;
+padding: 5%;
+}
+.Guaranteed-to-work{
+    text-align: center;
+    padding: 5%;
+}
+.Elite-Clientele{
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+    padding:10px;
+    color: #ef8172;}
+.icon:hover{
+  color: #ff4c68;
+}
+/* Features Section */
+  #features  {
+    padding: 7% 16%;
+  }
+/* h2 */
+h2 {
+   color: white;
+   font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.5;
+}
+/* H3 */
+
+.h31{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.h32{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.h33{
+  font-family: Montserrat;
+  font-weight: bold;
+}
+/* Testimonials Section */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 7% 15% 7% 15%;
+}
+.testimonial-images{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+font-size: 1.5rem;
+font-family: "Montserrat";
+font-weight: 600;
+}
+em{
+  color: white;
+}
+/* PRESS */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
 }
